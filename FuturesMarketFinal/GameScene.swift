@@ -8,19 +8,27 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
+    
+    var drogon = SKSpriteNode(imageNamed: "dragon")
+    
+    var player = SKSpriteNode(imageNamed: "peep")
+    
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
     override func didMove(to view: SKView) {
         
-        // Get label node from scene and store it for use later
+      //   Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {
             label.alpha = 0.0
             label.run(SKAction.fadeIn(withDuration: 2.0))
+        //self.player = player
         }
+    
+    //player.physicsBody = SKPhysicsBody(texture:player.texture!, size:player.size)
         
         // Create shape node to use during mouse interaction
         let w = (self.size.width + self.size.height) * 0.05

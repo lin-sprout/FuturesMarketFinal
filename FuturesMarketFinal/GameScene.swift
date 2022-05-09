@@ -19,7 +19,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private var spinnyNode : SKShapeNode?
     
     override func didMove(to view: SKView) {
-        
+        //im writing yup mhm
       //   Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {

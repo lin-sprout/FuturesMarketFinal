@@ -15,6 +15,7 @@
 		DB12A69E2821B62E00B87A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB12A69C2821B62E00B87A0C /* Main.storyboard */; };
 		DB12A6A02821B63000B87A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB12A69F2821B63000B87A0C /* Assets.xcassets */; };
 		DB12A6A32821B63000B87A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB12A6A12821B63000B87A0C /* LaunchScreen.storyboard */; };
+		DB12A6AA2829A80300B87A0C /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB12A6A92829A80300B87A0C /* MyActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DB12A69D2821B62E00B87A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB12A69F2821B63000B87A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB12A6A22821B63000B87A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB12A6A92829A80300B87A0C /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				DB12A6922821B62E00B87A0C /* AppDelegate.swift */,
+				DB12A6A92829A80300B87A0C /* MyActions.sks */,
 				DB12A6942821B62E00B87A0C /* GameScene.sks */,
 				DB12A6962821B62E00B87A0C /* Actions.sks */,
 				DB12A6982821B62E00B87A0C /* GameScene.swift */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB12A69E2821B62E00B87A0C /* Main.storyboard in Resources */,
+				DB12A6AA2829A80300B87A0C /* MyActions.sks in Resources */,
 				DB12A6952821B62E00B87A0C /* GameScene.sks in Resources */,
 				DB12A6A02821B63000B87A0C /* Assets.xcassets in Resources */,
 				DB12A6A32821B63000B87A0C /* LaunchScreen.storyboard in Resources */,
